@@ -2,13 +2,13 @@
 
 /**
  *
- *    * main - prints to the standard error
+ * main - prints to the standard error
  *
- *       *
  *
- *          * Return: one
  *
- *             */
+ * Return: one
+ *
+ */
 
 int main(void)
 
