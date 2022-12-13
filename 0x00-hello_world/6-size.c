@@ -2,28 +2,38 @@
 
 /**
  *
- *  * main - Entry point
+ *  *main - entry point
  *
  *   *
  *
- *    * Return: Always 0 (Success)
+ *    *Return: Always zero (success)
  *
  *     */
 
-int main(void)
+int main()
 
 {
 
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
+		char charType;
 
-	printf("Size of an int: %d byte(s)\n", sizeof(int));
+			int intType;
 
-	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+				long int longint;
 
-	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+					long long int lolongline;
 
-	printf("Size of a float: %d byte(s)\n", sizeof(float));
+						float floatType;
 
-	return (0);
+							printf("Size of char: %zu bytes\n", sizeof(charType));
+
+								printf("Size of int: %zu bytes\n", sizeof(intType));
+
+									printf("Size of long int: %zu bytes\n", sizeof(longint));
+
+										printf("Size of long long int: %zu bytes\n", sizeof(lolongline));
+
+											printf("Size of float: %zu bytes\n", sizeof(floatType));
+
+												return (0);
 
 }
