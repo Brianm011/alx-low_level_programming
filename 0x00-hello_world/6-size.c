@@ -8,7 +8,7 @@
  *
  *          *Return: zero
  *
- *             */
+ */
 
 int main(void)
 
@@ -33,5 +33,6 @@ int main(void)
 									printf("Size of a float: %lu byte\(s\)\n", sizeof(f));
 
 										return (0);
+
 
 }
