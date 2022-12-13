@@ -1,17 +1,16 @@
 #include <stdio.h>
 
+
+
 /**
  *
- * *main - main function
+ *  * main - prints the size of various types on the pc it is compiled and run on.
  *
- * *Description: use the main function
+ *   * Return: 0
  *
- * *
- *
- * *Return: return 0
- *
- *
- */
+ *   **/
+
+
 
 int main(void)
 
@@ -28,4 +27,5 @@ int main(void)
 						printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 							return (0);
+
 }
