@@ -2,38 +2,36 @@
 
 /**
  *
- *  *main - entry point
+ *    * main - computes sizes of various data types
  *
- *   *
+ *       *
  *
- *    *Return: Always zero (success)
+ *          *Return: zero
  *
- *     */
+ *             */
 
-int main()
+int main(void)
 
 {
 
-		char charType;
+		char c;
 
-			int intType;
+			int i;
 
-				long int longint;
+				float f;
 
-					long long int lolongline;
 
-						float floatType;
 
-							printf("Size of char: %zu bytes\n", sizeof(charType));
+					printf("Size of a char: %lu byte\(s\)\n", sizeof(c));
 
-								printf("Size of int: %zu bytes\n", sizeof(intType));
+						printf("Size of an int: %lu byte\(s\)\n", sizeof(i));
 
-									printf("Size of long int: %zu bytes\n", sizeof(longint));
+							printf("Size of a long int: %lu byte\(s\)\n", sizeof(long int));
 
-										printf("Size of long long int: %zu bytes\n", sizeof(lolongline));
+								printf("Size of a long long int: %lu byte\(s\)\n", sizeof(long long int));
 
-											printf("Size of float: %zu bytes\n", sizeof(floatType));
+									printf("Size of a float: %lu byte\(s\)\n", sizeof(f));
 
-												return (0);
+										return (0);
 
 }
