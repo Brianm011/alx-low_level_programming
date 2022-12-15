@@ -19,9 +19,9 @@ int main(void)
 		fib2 = sum;
 
 		if (count == 49)
-			ptintf("\n");
+			printf("\n");
 		else
-			ptintf(", ");
+			printf(", ");
 	}
 	return (0);
 }
