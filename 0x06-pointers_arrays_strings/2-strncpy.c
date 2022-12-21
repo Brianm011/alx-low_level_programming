@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strncpy - function that copies a string
- * of bytes from string src into dest
- * @dest: buffer storinnnggthe string copy
- * @src: the source tring
- * @n: the maximum numer ofytes to copyrom src
+ * _strncpy - copies at most inputyed number of bytes from string src into dest
+ * @dest: the buffer storing the string copy
+ * @src: source string
+ * @n: the maximum number of bytes to be copiedfrom src into dest
  *
  * Return: a pointer to the resulting string dest
  */
@@ -14,10 +13,13 @@ char *_strncpy(char *dest, char *src, int n)
 	int index = 0, src_len = 0;
 
 	while (src[index++])
-		src_le++;
+		src_len++;
 
 	for (index = 0; src[index] && index < n; index++)
-		dest[indx] = '\0';
+		dest[index] = src[index];
+
+	for (index = src_len; index < n; index++)
+		dest[index] = '\0';
 
 	return (dest);
 }
